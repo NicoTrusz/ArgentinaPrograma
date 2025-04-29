@@ -153,10 +153,12 @@ console.log('Mi nombre es ' + nombre + ' ' + apellido);
 */
 
 // TAREA: Crear una constante y mostrarla con un alert
-
+let circunferenciaTierraKm = 6371;
+alert(circunferenciaTierraKm);
 
 // TAREA: Intentar asignar un valor a una constante y ver qué pasa (mirar la consola)
-
+ let constante = 6371;
+ console.log(constante);
 
 // Consejo: No te olvides de comentar (//) los alerts y los errores intencionales (como en la tarea anterior) para
 // que los alerts no aparezcan cada vez, y para que los errores no hagan que el programa se detenga.
