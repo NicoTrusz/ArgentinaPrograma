@@ -39,14 +39,16 @@
 */
 
 // Tarea: Ahora te toca a vos! Acá abajo escribí una alerta que diga "Hola mundo!"
- alert('Hola Mundo!');
+
+//alert('Hola Mundo!');
 
 // Tarea: Una vez que la alerta funcione, comentala poniendo '//' en la línea donde está el código y guardá los cambios.
 // Una vez que recargás la página, ya no debería aparecer más.
 
 
 // Tarea: Ahora probá hacer un console.log de un mensaje que queramos.
- console.log('Hola Mundo!');
+
+// console.log('Hola Mundo!');
 
 // Consejo: Para recargar el navegador podemos apretar 'CMD + R' en Mac y 'CTRL + R' en
 //      Windows.
@@ -55,8 +57,11 @@
 // Consejo: El atajo del teclado para guardar cambios a un archivo es 'CMD + S' en Mac y 'CTRL + S' en
 //      Windows.
 
+/*
 let nombreDeVariable;
 console.log("nombreDeVariable es " + nombreDeVariable); // + es una concatenacion
+*/
+
 /*
 Variables
 =========
@@ -103,8 +108,11 @@ así:
 
 // TAREA: Creá 2 variables indefinidas, llamadas numeroUno y numeroDos.
 
+/*
 let numeroUno;
 let numeroDos;
+*/
+
 /*
     Podés usar el nombre de tus variables pare representar qué información tienen adentro, por ejemplo:
 
@@ -117,6 +125,13 @@ let numeroDos;
 // Crear 2 variables nuevas, una con tu nombre, la segunda con tu edad. Dales un nombre apropriado y
 // mostralas con un alert.
 
+/*
+let nombre = 'Nicolas';
+let apellido = 'Trusz';
+let edad = 30;
+console.log('Mi nombre es ' + nombre + ' ' + apellido);
+alert('Mi nombre es ' + nombre + ' y tengo ' + edad + ' años');
+*/
 
 // Consejo: para mostrar 2 variables de texto al mismo tiempo, las podés unir usando el signo '+'. Ejemplo:
 
@@ -127,9 +142,6 @@ let numeroDos;
 * alert(nombre + apellido)
 *
 * */
-let nombre = 'Nicolas';
-let apellido = 'Trusz';
-console.log('Mi nombre es ' + nombre + ' ' + apellido);
 
 /*
     Constantes
@@ -153,11 +165,11 @@ console.log('Mi nombre es ' + nombre + ' ' + apellido);
 */
 
 // TAREA: Crear una constante y mostrarla con un alert
-let circunferenciaTierraKm = 6371;
+const circunferenciaTierraKm = 6371;
 alert(circunferenciaTierraKm);
 
 // TAREA: Intentar asignar un valor a una constante y ver qué pasa (mirar la consola)
- let constante = 6371;
+ const constante = 'hola, Mundo';
  console.log(constante);
 
 // Consejo: No te olvides de comentar (//) los alerts y los errores intencionales (como en la tarea anterior) para
@@ -189,6 +201,11 @@ alert(circunferenciaTierraKm);
 // la 1ra variable multiplicada (con el operador *) por la 2nda variable.
 // Mostrar el valor de resultadoMultiplicacion con un alert o un console.log
 
+let diez = 10;
+let tres = 3;
+let resultadoMultiplicacion = diez * tres;
+console.log(resultadoMultiplicacion);
+/* si sabemos que nuestra bariable no va a cambiar, podemos usar 'const'*/
 
 /*
     Funciones
@@ -244,8 +261,10 @@ alert(circunferenciaTierraKm);
 // Escribí código para que acepte 2 argumentos (numero1 y numero2)
 // Escribí código para que devuelva (return) la suma de numero1 y numero2
 // Ejecutá la función sumar y mostrá su resultado en la consola
-
-
+function sumar (numero1, numero2) {
+    return numero1 + numero2;
+};
+console.log(sumar(1,2));
 // TAREA: Ahora creemos otra función llamada 'restar'
 //       Que acepte 2 números como parámetro y los reste, y que devuelva ese valor.
 // Ejecutá la función con los números 5 y 1 y mostralos con console.log
