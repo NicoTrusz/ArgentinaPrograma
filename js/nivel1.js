@@ -55,45 +55,46 @@
 // Consejo: El atajo del teclado para guardar cambios a un archivo es 'CMD + S' en Mac y 'CTRL + S' en
 //      Windows.
 
-
+let nombreDeVariable;
+console.log("nombreDeVariable es " + nombreDeVariable); // + es una concatenacion
 /*
-    Variables
-    =========
+Variables
+=========
 
-    Una variable es un lugar para guardar información. Para crear (o mejor dicho DECLARAR) una variable usamos 'let',
-    así:
+Una variable es un lugar para guardar información. Para crear (o mejor dicho DECLARAR) una variable usamos 'let',
+así:
 
     let nombreDeVariable;
-
+    
     Con esto creamos una variable llamada nombreDeVariable. pero no tiene información o valor, está indefinida.
     JavaScript le llama a estos valores indefinidos 'undefined'.
 
     Si imprimimos la variable en la consola, podemos verlo.
     console.log("nombreDeVariable es " + nombreDeVariable);
-
+    
     El resultado va a ser "nombreDeVariable es undefined".
-
+    
     Para darle un valor a nuestra variable (o mejor dicho ASIGNAR un valor), usamos el signo '='.
-
+    
     nombreDeVariable = 'Hola Mundo!';
-
+    
     También podemos crear (declarar) y darle valor (asignar) a una variable en un solo paso (la INICIALIZAMOS).
-
+    
     let nuevaVariable = 1;
-
+    
     Como pueden ver, le podemos dar distintos tipos de valores a nuestras variables -
     Cadenas de texto (String), Numeros (Number), Booleanos (Boolean), etc.
-
+    
     Qué son cada uno?
     String - Un set de caracteres, palabras), o frases que ponemos entre comillas (dobles o simples, no importa),
     como por ejemplo 'hola mundo!'.
     Esto puede ser cualquier cosa, incluso números.
-
+    
     Números - Pueden ser enteros (ej.: 5) o decimales (ej.: 5.21). No van entre comillas.
-
+    
     Booleano - representa un valor VERDADERO o FALSO. TRUE o FALSE.
-
-
+    
+    
     Nota: Seguramente vean código que usa la palabra 'var' en vez de 'let'.
     'var' es una palabra reservada que cumple una función un poco distinta a la de 'let'.
     Si bien tienen algunas diferencias, por ahora pueden imaginarse que 'var' y 'let' son iguales, pero nosotros vamos
@@ -102,7 +103,8 @@
 
 // TAREA: Creá 2 variables indefinidas, llamadas numeroUno y numeroDos.
 
-
+let numeroUno;
+let numeroDos;
 /*
     Podés usar el nombre de tus variables pare representar qué información tienen adentro, por ejemplo:
 
@@ -125,7 +127,9 @@
 * alert(nombre + apellido)
 *
 * */
-
+let nombre = 'Nicolas';
+let apellido = 'Trusz';
+console.log('Mi nombre es ' + nombre + ' ' + apellido);
 
 /*
     Constantes
