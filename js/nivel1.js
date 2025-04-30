@@ -109,6 +109,7 @@ así:
 */
 
 // TAREA: Creá 2 variables indefinidas, llamadas numeroUno y numeroDos.
+
 // ############ Nicolas Trusz ############
 /*
 let numeroUno;
@@ -126,6 +127,7 @@ let numeroDos;
 
 // Crear 2 variables nuevas, una con tu nombre, la segunda con tu edad. Dales un nombre apropriado y
 // mostralas con un alert.
+
 // ############ Nicolas Trusz ############
 /*
 let nombre = 'Nicolas';
@@ -167,17 +169,19 @@ alert('Mi nombre es ' + nombre + ' y tengo ' + edad + ' años');
 */
 
 // TAREA: Crear una constante y mostrarla con un alert
+
 // ############ Nicolas Trusz ############
 /*
 const circunferenciaTierraKm = 6371;
 alert(circunferenciaTierraKm);
 */
 // TAREA: Intentar asignar un valor a una constante y ver qué pasa (mirar la consola)
-// ############ Nicolas Trusz ############
+
 /*
  const constante = 'hola, Mundo';
  console.log(constante);
 */
+
 // Consejo: No te olvides de comentar (//) los alerts y los errores intencionales (como en la tarea anterior) para
 // que los alerts no aparezcan cada vez, y para que los errores no hagan que el programa se detenga.
 
@@ -206,6 +210,7 @@ alert(circunferenciaTierraKm);
 // * 3ra variable llamada resultadoMultiplicacion que va a ser igual a
 // la 1ra variable multiplicada (con el operador *) por la 2nda variable.
 // Mostrar el valor de resultadoMultiplicacion con un alert o un console.log
+
 // ############ Nicolas Trusz ############
 /*
 let diez = 10;
@@ -321,21 +326,21 @@ console.log(saludo(nombre));
 */
 
 function calcularSalarioAnual(salarioMensual){ // consultar cuanto gana por mes
-    let Anual = 12
+    const Anual = 12
     return salarioMensual * Anual; // devuelve el salario anual
 };
 function calcularSalarioMensual(salarioAnual){ // consultar cuanto gana por año
-    let Mensual = 12
+    const Mensual = 12
     return salarioAnual / Mensual; // devuelve el salario mensual
 };
 
 function calcularSalarioSemanal(salarioAnual){ // consultar cuanto gana por año
-    let Semanal = 52
+    const Semanal = 52
     return salarioAnual / Semanal; // devuelve el salario semanal
 };
-
+// si el salario diario era horas por dias de trabajo se cambia la constante a 160(horas trabajado por mes) * 12(meses del año) = 1.920 horas
 function calcularSalarioDiario(salarioAnual){ // consultar cuanto gana por año
-    let Diario = 365
+    const Diario = 365
     return salarioAnual / Diario; // devuelve el salario diario
 };
 // salario Mensual
