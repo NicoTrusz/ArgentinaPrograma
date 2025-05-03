@@ -275,22 +275,22 @@ console.log(resultadoMultiplicacion);
 // Escribí código para que devuelva (return) la suma de numero1 y numero2
 // Ejecutá la función sumar y mostrá su resultado en la consola
 // ############ Nicolas Trusz ############
-
+/*
 function sumar (numero1, numero2) {
     return numero1 + numero2;
 };
 console.log(sumar(1,2));
-
+*/
 // TAREA: Ahora creemos otra función llamada 'restar'
 //       Que acepte 2 números como parámetro y los reste, y que devuelva ese valor.
 // Ejecutá la función con los números 5 y 1 y mostralos con console.log
 // ############ Nicolas Trusz ############
-
+/*
 function restar (numero1, numero2){
     return numero1 - numero2;
 };
 console.log(restar(2,1));
-
+*/
 // Consejo: Sabías que en vez de pasar los números directamente a tu función podés crear variables con esos números
 // y pasarlos como parámetros? Probalo!
 
@@ -302,7 +302,8 @@ preguntar año de nacimiento
 preguntar el anio actual
 crear una funcion que tome como parametro el anio actual y el anio de nacimiento
 y calcule la edad del usuario (mas o menos)
-*/ 
+*/
+/* 
 let anioNacimiento = prompt('En qué año naciste?');
 let anioActual = prompt('Cuál es el año actual?');
 
@@ -319,12 +320,13 @@ function saludo(nombre){
 };
 let nombre = prompt('Cual es tu nombre?');
 console.log(saludo(nombre));
+*/
 /* Tarea
   Preguntar el salario anual y calcular el salario mensual
   Preguntar el salario mensual y calcular el anual
   diario... semanal, por hora. etc.
 */
-
+/*
 function calcularSalarioAnual(salarioMensual){ // consultar cuanto gana por mes
     const Anual = 12
     return salarioMensual * Anual; // devuelve el salario anual
@@ -351,7 +353,7 @@ const salarioAnual = Number(prompt('Cuál es tu salario Anual?'));
 console.log('Tu salario mensual es ' + calcularSalarioMensual(salarioAnual));
 console.log('Tu salario semanal es ' + calcularSalarioSemanal(salarioAnual));
 console.log('Tu salario diario es ' + calcularSalarioDiario(salarioAnual));
-
+*/
 /*
     Condicionales If-Else
     ==================
@@ -430,8 +432,36 @@ console.log('Tu salario diario es ' + calcularSalarioDiario(salarioAnual));
 //
 
 // TAREA: Cambiar el operador a '-', y fijarse que llame a la función 'restar' en vez de a la de 'sumar'.
-
-
+// ############ Nicolas Trusz ############
+/*
+function sumar(num1, num2) {
+    return num1 + num2;
+};
+function restar(num1, num2) {
+    return num1 - num2;
+};
+function multiplicar(num1, num2) {
+    return num1 * num2;
+};
+function dividir(num1, num2) {
+    return num1 / num2;
+};
+const operador = prompt ('Ingrese el operador que desea usar: ');
+const num1 = parseInt(prompt('Ingrese el primer número: '));
+const num2 = parseInt(prompt('Ingrese el segundo número: '));
+if (operador === '+' ) {
+    console.log(sumar(num1, num2));
+    }
+    else if (operador === '-') {
+    console.log(restar(num1, num2));
+    }
+    else if (operador === '*') {
+    console.log(multiplicar(num1, num2));
+    }
+    else {
+    console.log(dividir(num1, num2));
+}
+*/
 /*
     'If' - 'Else if' - 'Else'
     ===================
@@ -472,7 +502,35 @@ console.log('Tu salario diario es ' + calcularSalarioDiario(salarioAnual));
 //       'else if' el 'operador' es igual a '*' - llamar a la función 'multiplicar'.
 //       else console.log - "Perdón, no conozco ese operador".
 
-
+function sumar(num1, num2) {
+    return num1 + num2;
+};
+function restar(num1, num2) {
+    return num1 - num2;
+};
+function multiplicar(num1, num2) {
+    return num1 * num2;
+};
+function dividir(num1, num2) {
+    return num1 / num2;
+};
+const operador = prompt ('Ingrese el operador que desea usar: ');
+const num1 = parseInt(prompt('Ingrese el primer número: '));
+const num2 = parseInt(prompt('Ingrese el segundo número: '));
+if (operador === '+' ) {
+    console.log(sumar(num1, num2));
+    }
+    else if (operador === '-') {
+    console.log(restar(num1, num2));
+    }
+    else if (operador === '*') {
+    console.log(multiplicar(num1, num2));
+    }
+    else if (operador === '/') {
+    console.log(dividir(num1, num2));
+}   else {
+    console.log('Perdón, no conozco ese operador');
+}
 
 
 
