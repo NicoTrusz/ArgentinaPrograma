@@ -561,7 +561,9 @@ if (operador === '+' ) {
 // TAREA: usando el operador !, Intentá invertir una variable (de true a false, o de false a true) e imprimí el
 // resultado en la consola.
 let  miVariable = true;
-console.log(!miVariable);
+console.log(miVariable); // true
+console.log(!miVariable); // false
+console.log(miVariable); // true
 
 ////////////////////////////////////////////////////////////////////////////
 // Felicitaciones! Terminaste el Nivel 1 de la introducción a JavaScript! //
