@@ -42,7 +42,7 @@
 // TAREA: Crea tu propio array, llamado comidasFavoritas, y escribi dentro algunas
 //       cosas que te gustan.
 
-
+let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
 
 
 
