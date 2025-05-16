@@ -68,7 +68,6 @@ let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
 
 
 
-
 /*
     Uso del Array
     =============
