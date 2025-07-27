@@ -312,7 +312,10 @@ for (j = 3; j <= 22; j += 3) { // Punto de partida, condición y contador
 
 // TAREA: Probalo con tu comidasFavoritas array.
 
-
+let k;
+for (k = 0; k < comidasFavoritas.length; k++) {
+    console.log('Me gusta comer ' + comidasFavoritas[k]); // Imprime cada comida favorita
+}
 
 
 
@@ -355,7 +358,18 @@ for (j = 3; j <= 22; j += 3) { // Punto de partida, condición y contador
 // 16% 4 = 0 - en 16 tenemos 4 * 4
 // 19% 4 = 3 - en 19 tenemos 4 * 4 + 3, etc.
 
-
+let m;
+for (m = 1; m <= 50; m++) {
+    if (m % 3 === 0 && m % 5 === 0) {
+        console.log('FizzBuzz'); // Múltiplo de 3 y 5
+    } else if (m % 3 === 0) {
+        console.log('Fizz'); // Múltiplo de 3
+    } else if (m % 5 === 0) {
+        console.log('Buzz'); // Múltiplo de 5
+    } else {
+        console.log(m); // Imprime el número mismo
+    }
+}
 
 
 
