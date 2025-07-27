@@ -42,8 +42,10 @@
 // TAREA: Crea tu propio array, llamado comidasFavoritas, y escribi dentro algunas
 //       cosas que te gustan.
 
+/*
 let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
-
+*/
+const comidasFavoritas = ['ensalada', 'tacos', 'pasta', 'helado'];
 
 
 
@@ -64,7 +66,7 @@ let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
 // TAREA: Verifique cuántos valores tiene en su array comidasFavoritas.
 // imprimi utilizando console.log el resultado.
 
-
+console.log(comidasFavoritas.length); // Obtendremos 4, ya que hay 4 elementos en el array comidasFavoritas.
 
 
 
@@ -90,7 +92,7 @@ let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
 // TAREA: Obtené el tercer elemento de tu array comidasFavoritas e imprimilo utilizando console.log.
 
 
-
+console.log(comidasFavoritas[2]); // Obtendremos 'pasta', ya que es el tercer elemento del array comidasFavoritas.
 
 
 
@@ -115,14 +117,14 @@ let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
 // con cualquier otra cosa.
 
 
-
+comidasFavoritas[0] = 'tortilla'; // Reemplazamos 'ensalada' con 'tortilla' en el array comidasFavoritas.
 
 
 
 // TAREA: console.log todo el array para verificar.
 
 
-
+console.log(comidasFavoritas); // Imprimimos el array comidasFavoritas para verificar el cambio realizado.
 
 
 
@@ -146,13 +148,13 @@ let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
 // TAREA: Extendamos tu lista de comidasFavoritas y agreguemos un valor más.
 
 
-
+comidasFavoritas.push('pizza'); // Agregamos 'pizza' al final del array comidasFavoritas.
 
 
 
 // TAREA: console.log todo el array para verificar.
 
-
+console.log(comidasFavoritas); // Imprimimos el array comidasFavoritas para verificar el cambio realizado.
 
 
 
@@ -180,7 +182,10 @@ let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
 
 // TAREA: Intenta crear un array como una constante y modifica los valores que contiene.
 
-
+let a = [1, 2, 3];
+console.log(a); // Imprimimos el array a para verificar su contenido.
+a[0] = 5; // Cambiamos el segundo elemento del array a de 2 a 5.
+console.log(a); // Imprimimos el array a para verificar el cambio realizado.
 
 
 
@@ -190,7 +195,8 @@ let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
 //       con notación de corchetes (array[1]) y
 //       asigna un nuevo array completamente nuevo a la constante
 
-
+a.push(4); // Agregamos el número 4 al final del array a.
+console.log(a); // Imprimimos el array a para verificar el cambio realizado.
 
 
 
@@ -241,15 +247,19 @@ let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
       // + 1 es un contador / tamaño del paso
     }
 */
+let numero = 0; // Punto de partida
+while (numero < 10){
+    numero += 1; // Contador
+}
 
 // TAREA: Usando un bucle 'while', decile a tu computadora que registre los números de
 //       diez a uno.
 
-
-
-
-
-
+let i = 10; // Punto de partida
+while (i >= 1) {
+    console.log(i); // Imprime el número actual
+    i -= 1; // Contador, disminuye en 1
+}
 /*
     Bucles for (para)
     ==========
@@ -264,10 +274,17 @@ let comidasFavoritas = ['pizza', 'sushi', 'hamburguesas', 'hot-dog'];
       console.log('Hola!');
     }
 */
+let n;
+for (n = 0; n <= 5; n = n + 1) { // Punto de partida, condición y contador
+    console.log('Hola!'); // Imprime 'Hola!' 6 veces
+}
 
 // TAREA: Imprimí cada 3er número del 3 al 22 usando un 'bucle for'.
 
-
+let j;
+for (j = 3; j <= 22; j += 3) { // Punto de partida, condición y contador
+    console.log(j); // Imprime cada número del 3 al 22 que es múltiplo de 3
+}
 
 
 
