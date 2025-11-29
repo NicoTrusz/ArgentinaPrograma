@@ -6,13 +6,16 @@
 // Si el nombe del usuario es el mismo que el que nombre que eligieron
 // Imprimir "Hola " y el nombre, " te llamás igual que mi ..."
 // Si no, simplemente imprimir "Hola " + nombre!
+const MI_NOMBRE = 'Nicolas';
+const NOMBRE_MADRE = 'Cris';
+const nombre = prompt('Cual es tu nombre?' || '').toLowerCase();
 
-const nombre = prompt('Cual es tu nombre?');
-
-if (nombre === 'Nicolas') {
+if (nombre.trim() === MI_NOMBRE) {
     console.log('Hola, Tocayo! Yo tambien me llamo ' + nombre);
-}else if (nombre === 'Cristiana') {
+}else if (nombre.trim() === NOMBRE_MADRE) {
     console.log('Hola, ' + nombre + ' te llamás igual que mi Madre!  ');
+}else if (nombre.trim().length === 0){ 
+    console.log('No ingresaste ningún nombre.')
 }else {
     console.log('Hola ' + nombre);
 }
