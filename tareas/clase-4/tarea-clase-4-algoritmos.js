@@ -153,3 +153,112 @@ Desafío de programación #51. Find the frequency of characters inside a string.
 Desafío de programación #52. Calculate Fibonacci(500) with high precision (all decimals)
 Desafío de programación #53. Calculate 70! with high precision (all decimals)
  */
+
+/*
+console.log("desafio 1");
+for (let n = 10; n >= 1; n--){
+  console.log(n);
+}
+
+console.log("desafio 2");
+for (let n = 0; n <= 100; n++){
+  if (n % 2 === 1){
+    console.log(n);
+  }
+}
+console.log("desafio 3");
+for (let i = 0; i <= 10 ; i++){
+  let tabla = 7 * i;
+  console.log('7x'+i,'=', +tabla);
+}
+console.log("desafio 4");
+for(let i = 1; i <= 9; i++){
+  for(let j = 0; j <= 10; j++){
+    let tabla_de_multiplicar = i * j;
+    console.log(i,'x',+j,'=',+tabla_de_multiplicar);
+  }
+}
+console.log("desafio 5");
+const arreglo = [1,2,3,4,5,6,7,8,9,10]
+function suma (numero){
+  let suma = 0;
+  let i = 0;
+  while (i<numero.length){
+    suma += numero[i];
+    i++;
+  }
+  return suma;
+}
+console.log(suma(arreglo))
+console.log("desafio 6");
+function factorial(n) {
+  let resultado = 1;
+  for (let i = 1; i <= n; i++) {
+    resultado *= i;
+  }
+  return resultado;
+}
+console.log("10! =", factorial(10));
+console.log("desafio 7");
+function suma (n){
+  let suma = 0;
+  for (let i = 11; i<= n-1; i++){
+    suma += i ;
+  }
+  return suma;
+}
+console.log(suma(30));
+console.log("desafio 8");
+function Temperatura (n){
+  let temp = 0;
+  temp = n + 32;
+  return temp;
+}
+console.log(Temperatura(0));
+*/
+
+console.log("desafio 9");
+console.log("desafio 10");
+console.log("desafio 11");
+console.log("desafio 12");
+console.log("desafio 13");
+console.log("desafio 14");
+console.log("desafio 15");
+console.log("desafio 16");
+console.log("desafio 17");
+console.log("desafio 18");
+console.log("desafio 19");
+console.log("desafio 20");
+console.log("desafio 21");
+console.log("desafio 22");
+console.log("desafio 23");
+console.log("desafio 24");
+console.log("desafio 25");
+console.log("desafio 26");
+console.log("desafio 27");
+console.log("desafio 28");
+console.log("desafio 29");
+console.log("desafio 30");
+console.log("desafio 31");
+console.log("desafio 32");
+console.log("desafio 33");
+console.log("desafio 34");
+console.log("desafio 35");
+console.log("desafio 36");
+console.log("desafio 37");
+console.log("desafio 38");
+console.log("desafio 39");
+console.log("desafio 40");
+console.log("desafio 41");
+console.log("desafio 42");
+console.log("desafio 43");
+console.log("desafio 44");
+console.log("desafio 45");
+console.log("desafio 46");
+console.log("desafio 47");
+console.log("desafio 48");
+console.log("desafio 49");
+console.log("desafio 50");
+console.log("desafio 51");
+console.log("desafio 52");
+console.log("desafio 53");
