@@ -218,6 +218,11 @@ console.log(Temperatura(0));
 */
 
 console.log("desafio 9");
+function FaC (n){
+  let c = n - 32;
+  return c;
+}
+console.log("farenthei a celcius "+ FaC (32));
 console.log("desafio 10");
 console.log("desafio 11");
 console.log("desafio 12");
