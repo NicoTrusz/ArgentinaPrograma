@@ -124,7 +124,8 @@
 //       variable llamada nuestroTitulo.
 //       Utilizá console.log para ver lo que obtuviste!
 
-
+const nuestroTitulo = document.querySelector('h1');
+console.log(nuestroTitulo);
 
 
 
@@ -146,14 +147,15 @@
 
 // TAREA: Obtené todos los elementos <li> de la página en una variable llamada mediaLinks.
 
-
+const mediaLinks = document.querySelectorAll('li');
+console.log(mediaLinks);
 
 
 
 
 // TAREA: Ahora utilizá console.log para ver la cantidad de 
 // elementos li que hay con mediaLinks.length
-
+console.log(mediaLinks.length);
 
 
 
@@ -162,7 +164,9 @@
 // TAREA: ¿Te acordás de los bucles del nivel 2? Usando lo que sabés de ellos, realizá iteraciones
 //      sobre cada item de mediaLinks y mostralos en pantalla con console.log
 
-
+for (let i = 0 ; i< mediaLinks.length; i++){
+    console.log(mediaLinks[i].innerText);
+}
 
 
 
@@ -184,9 +188,8 @@
 // TAREA: Obtené el contenido de nuestro elemento 'h1'
 // y utilizá console.log para mostrarlo.
 
-
-
-
+const nuestroh1text = document.querySelector('h1');
+console.log(nuestroh1text.textContent);
 
 
 /*
@@ -205,7 +208,8 @@
 
 // TAREA: Hagamos un nuevo título! Cambiá el contenido de nuestro 'h1' y ponele lo que quieras.
 
-
+nuestroTitulo.textContent = 'Nivel 3 de JS';
+console.log(nuestroTitulo.textContent);
 
 
 
@@ -223,8 +227,9 @@
 
 // TAREA: Actualizá el valor del atributo 'src' de nuestra etiqueta 'img' a "img/kittens.jpeg".
 
-
-
+const etiquetaimg = document.querySelector('img');
+etiquetaimg.src = "img/kittens.jpeg";
+console.log(etiquetaimg.src);
 
 
 
@@ -248,7 +253,7 @@
 
 // Tarea: Obtené cualquier elemento de la página y cambiale algunos estilos.
 
-
+nuestroTitulo.style.backgroundColor = 'yellow';
 
 
 
@@ -278,9 +283,15 @@
 //
 // P.S. También les podés dar estilos al nuevo nodo que creaste.
 
-
-
-
+const nodoCabecera = document.querySelector('header');
+const nuevaImagen = document.createElement('img');
+nuevaImagen.src = 'img/woman_bw.jpg';
+nuevaImagen.alt = 'Logo original';
+nodoCabecera.appendChild(nuevaImagen);
+nuevaImagen.style.width = '200px';
+nuevaImagen.style.border = '3px solid black';
+nuevaImagen.style.borderRadius = '10px';
+nuevaImagen.style.marginTop = '20px';
 
 
 ////////////////////////////////////////////////////////////////////////////
