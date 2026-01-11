@@ -11,5 +11,4 @@ $Guardar.onclick = function(){
   const $h1 = document.querySelector('h1');
   $h1.innerText = `Bienvenido, ${primerNombre}!`;
   console.log(informacionCompleta);
-  return false;
 }
